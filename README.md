@@ -16,3 +16,9 @@ bazel build //app2:hello-world # build
 ./bazel-bin/app2/hello-world # execute
 ```
 
+## build and execute with multiple packages
+
+```sh
+bazel build //main:hello-world # build
+./bazel-bin/main/hello-world # execute
+```
